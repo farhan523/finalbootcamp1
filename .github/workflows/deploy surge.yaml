@@ -33,5 +33,5 @@ jobs:
       - name: Install Surge
         run:  npm install --global surge
       - name: run Surge
-        run: surge ./ finalbootcamp2.surg.sh --token " c362fa179ac0c561899c6fbd279aac07"
+        run: surge ./ finalbootcamp2.surg.sh --token ${{ secrets.SURGE_TOKEN }}
       

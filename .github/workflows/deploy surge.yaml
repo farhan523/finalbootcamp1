@@ -3,7 +3,7 @@
 name: Deploy Website
 
 # Controls when the action will run.trigger the workflow on push or pull request
-on:
+
   # Triggers the workflow on push or pull request events but only for the main branch
   # event but only for the main branch  
 on:
